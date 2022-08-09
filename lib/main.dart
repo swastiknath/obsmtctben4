@@ -224,7 +224,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
 
                 const SizedBox(height: 10,),
-                AutoSizeText("Tap on the Shuffle Button to shuffle the board.", style: GoogleFonts.play(color: Colors.white, letterSpacing: 2.0),)
+                Container(
+                    margin: kBodyMargin,
+                    child: AutoSizeText("Tap on the Shuffle Button to shuffle the board.", style: GoogleFonts.play(color: Colors.white, letterSpacing: 2.0),))
               ],
             ): SizedBox(
               width: 410,
@@ -278,7 +280,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
 
                     const SizedBox(height: 10,),
-                    AutoSizeText("Tap on the Shuffle Button to shuffle the board.", style: GoogleFonts.play(color: Colors.white, letterSpacing: 2.0),)
+                    Container(
+                        margin:kBodyMargin,
+                        child: AutoSizeText("Tap on the Shuffle Button to shuffle the board.", style: GoogleFonts.play(color: Colors.white, letterSpacing: 2.0),))
                   ],
                 )
                 : SizedBox(
