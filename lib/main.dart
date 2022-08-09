@@ -105,9 +105,10 @@ class _MyHomePageState extends State<MyHomePage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: AutoSizeText(
+                minFontSize: 10,
                 "Team Building Exercise \n#4 - for MTC.",
                 style: GoogleFonts.mina(
-                  fontSize: 20,
+                  fontSize: 14,
                   letterSpacing: 2.0,
                 ),
                 maxLines: 2,
