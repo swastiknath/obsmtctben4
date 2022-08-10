@@ -1,6 +1,6 @@
 {
-    "name": "mtctbe4",
-    "short_name": "mtctbe4",
+    "name": "The Observation MTC TBE 4",
+    "short_name": "OBS-MTC-TBE-4",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
