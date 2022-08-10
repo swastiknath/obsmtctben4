@@ -165,7 +165,7 @@ class _MyHomePageState extends State<MyHomePage> {
               padding: const EdgeInsets.all(8.0),
               child: AutoSizeText(
                 "Welcome to Team Building Exercise Edition 4. Dreamers will be provided with a pair of"
-                "images of socio-political significance. This is a test of the \"Observation\" Skills of the Dreamers.",
+                " images of socio-political significance. This is a test of the \"Observation\" Skills of the Dreamers.",
                 style: GoogleFonts.prompt(
                   fontWeight: FontWeight.w200,
                   letterSpacing: 1.5,
@@ -191,7 +191,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: GoogleFonts.prompt(
                   fontWeight: FontWeight.w200,
                   letterSpacing: 1.5,
-                  color: Colors.white,
+                  color: Colors.pinkAccent,
                   fontSize: 10,
                 ),
               ),
